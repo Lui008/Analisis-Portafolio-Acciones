@@ -1,0 +1,280 @@
+================================================================================
+                    GUÍA DE INTERPRETACIÓN DEL ANÁLISIS
+                  Análisis de Portafolio de Acciones Españolas
+================================================================================
+
+📌 CÓMO LEER LOS GRÁFICOS Y DATOS
+
+================================================================================
+1. HOJA: PRECIOS HISTÓRICOS + GRÁFICO DE EVOLUCIÓN
+================================================================================
+
+✅ QUÉ VES:
+- Líneas de 5 colores diferentes
+- Cada línea = una acción
+- Eje Y (vertical) = Precio en €
+- Eje X (horizontal) = Tiempo (2 años)
+
+📊 CÓMO INTERPRETARLO:
+- Línea SUBIENDO = Acción ganando valor ✅
+- Línea BAJANDO = Acción perdiendo valor ❌
+- Línea PLANA = Acción estancada ➡️
+- Línea ZIGZAG = Volatilidad alta (sube y baja mucho)
+- Línea SUAVE = Volatilidad baja (cambios graduales)
+
+💡 EJEMPLO PRÁCTICO:
+Si INDITEX subió de €25 a €40 = Ganancia de €15
+Rentabilidad = (40-25)/25 × 100 = 60% en 2 años
+
+================================================================================
+2. HOJA: RESUMEN ESTADÍSTICO
+================================================================================
+
+📋 DATOS DISPONIBLES:
+
+A) PRECIO ACTUAL
+   - El precio hoy de cada acción
+   - Útil para ver la cotización vigente
+
+B) PRECIO MIN/MAX (2 AÑOS)
+   - El precio más bajo y más alto que alcanzó
+   - Rango = Max - Min (volatilidad visible)
+   
+   Ejemplo: INDITEX
+   Min: €20, Max: €45
+   Rango: €25 (Precio oscila mucho)
+
+C) RETORNO ANUAL (%)
+   - Cuánto dinero ganaste (o perdiste) en 1 año
+   - EN PORCENTAJE
+   
+   Ranking (de mejor a peor):
+   1. AMADEUS: 55.8% (Mejor retorno, PERO muy arriesgado)
+   2. INDITEX: 42.5% (Buen balance)
+   3. SANTANDER: 35.2%
+   4. BBVA: 28.4%
+   5. TELEFÓNICA: 12.3% (Menor retorno, pero más seguro)
+
+D) VOLATILIDAD (%)
+   - Cuánto "sube y baja" el precio
+   - Mayor número = Mayor riesgo
+   - Como "nerviosismo" de la acción
+   
+   Ranking (de más a menos volátil):
+   1. AMADEUS: 28.9% (MÁS ARRIESGADA)
+   2. BBVA: 22.1%
+   3. SANTANDER: 20.5%
+   4. INDITEX: 18.3%
+   5. TELEFÓNICA: 15.7% (MÁS SEGURA)
+
+E) SHARPE RATIO
+   - Mide el "retorno por riesgo asumido"
+   - Mayor número = Mejor inversión
+   - VALORES > 1 = Buena oportunidad
+   
+   ⭐ TOP 3:
+   1. INDITEX: 2.32 ⭐⭐⭐ MEJOR OPCIÓN
+   2. AMADEUS: 1.93 ⭐⭐⭐
+   3. SANTANDER: 1.71 ⭐⭐
+
+================================================================================
+3. HOJA: CORRELACIONES (MATRIZ)
+================================================================================
+
+✅ QUÉ SIGNIFICA:
+
+Valores de -1 a 1:
+  -1 = Se mueven OPUESTAS (perfecto para diversificar)
+  0  = No hay relación (bueno para diversificar)
+  1  = Se mueven IGUAL (malo para diversificar)
+
+📊 INTERPRETACIÓN:
+
+ALTA CORRELACIÓN (> 0.6):
+- BBVA ↔ SANTANDER: 0.68
+- ⚠️ PROBLEMA: Ambas son bancos, se comportan igual
+- Si una baja, la otra también baja
+- Mala diversificación en el sector financiero
+
+CORRELACIÓN MODERADA (0.3 - 0.6):
+- INDITEX ↔ BBVA: 0.35
+- ✅ BUENO: No es fácil predecir movimiento
+- Diferente sector (retail vs banca)
+
+BAJA CORRELACIÓN (< 0.3):
+- TELEFÓNICA ↔ TODAS: Promedio bajo
+- ✅ EXCELENTE DIVERSIFICADOR
+- Telecomunicaciones actúa independientemente
+
+💡 APLICACIÓN PRÁCTICA:
+Si quieres un portafolio seguro:
+- ❌ NO inviertas 50% BBVA + 50% SANTANDER (muy correlacionado)
+- ✅ SÍ inviertas 30% BBVA + 30% TELEFÓNICA + 40% INDITEX (buena mezcla)
+
+================================================================================
+4. GRÁFICO: RIESGO vs RETORNO (SCATTER PLOT)
+================================================================================
+
+✅ QUÉ VES:
+- Puntos dispersos (cada punto = 1 acción)
+- Eje X (horizontal) = Volatilidad (Riesgo)
+- Eje Y (vertical) = Retorno (Ganancia)
+
+📊 ZONAS DEL GRÁFICO:
+
+ARRIBA A LA IZQUIERDA = ⭐⭐⭐ IDEAL
+- Alto retorno + Bajo riesgo
+- INDITEX está aquí
+
+ARRIBA A LA DERECHA = ⚠️ ARRIESGADO
+- Alto retorno + Alto riesgo
+- AMADEUS está aquí
+
+ABAJO A LA IZQUIERDA = 😴 ABURRIDO
+- Bajo retorno + Bajo riesgo
+- TELEFÓNICA podría estar aquí
+
+ABAJO A LA DERECHA = ❌ EVITAR
+- Bajo retorno + Alto riesgo
+- Ninguna en este proyecto
+
+💡 CONCLUSIÓN:
+"INDITEX es la mejor opción: ganas mucho sin correr demasiado riesgo"
+
+================================================================================
+5. GRÁFICO: MATRIZ DE CORRELACIONES (HEATMAP)
+================================================================================
+
+✅ QUÉ VES:
+- Grid cuadrado con 25 cuadros (5x5)
+- ROJO = Correlación alta (se mueven igual)
+- AZUL = Correlación baja (se mueven diferente)
+
+📊 LECTURA RÁPIDA:
+- Diagonal = Siempre 1.00 (cada acción con sigo misma)
+- Rojo intenso = EVITAR (duplicidad)
+- Azul/Blanco = ✅ Buena diversificación
+
+💡 HALLAZGO CLAVE:
+"BBVA y SANTANDER tienen mucho rojo = No invertir ambas al mismo porcentaje"
+
+================================================================================
+6. GRÁFICO: COMPOSICIÓN DEL PORTAFOLIO (PIE CHART)
+================================================================================
+
+✅ QUÉ VES:
+- Pastel dividido en 5 rebanadas iguales
+- Cada rebanada = 20% del dinero
+
+📊 INTERPRETACIÓN ACTUAL:
+Portafolio equidistribuido:
+├── 20% INDITEX
+├── 20% BBVA
+├── 20% SANTANDER
+├── 20% TELEFÓNICA
+└── 20% AMADEUS
+
+Total: €5,000
+
+💡 ALTERNATIVA MEJORADA (basada en análisis):
+Portafolio optimizado:
+├── 30% INDITEX    (Mayor retorno/riesgo)
+├── 20% AMADEUS    (Crecimiento)
+├── 15% BBVA       (Reducir duplicidad)
+├── 20% SANTANDER  (Exposición financiera)
+└── 15% TELEFÓNICA (Estabilidad)
+
+================================================================================
+COMPARATIVA: INDITEX vs AMADEUS (Las mejores)
+================================================================================
+
+INDITEX:
+✅ Retorno: 42.5% (EXCELENTE)
+✅ Volatilidad: 18.3% (MODERADA)
+✅ Sharpe Ratio: 2.32 (ÓPTIMO)
+✅ Modelo: Retail maduro y rentable
+✅ RECOMENDACIÓN: COMPRA FIRME
+
+AMADEUS:
+✅ Retorno: 55.8% (SUPERIOR)
+⚠️ Volatilidad: 28.9% (ALTA)
+✅ Sharpe Ratio: 1.93 (BUENO)
+✅ Modelo: Tecnología/viajes en crecimiento
+⚠️ RECOMENDACIÓN: COMPRA CON CAUTELA
+
+================================================================================
+PORTAFOLIO RECOMENDADO: "GROWTH BALANCED"
+================================================================================
+
+Objetivo: Crecer con riesgo moderado
+
+Distribución:
+├── 30% INDITEX      → Estabilidad + Retorno
+├── 25% AMADEUS      → Crecimiento
+├── 20% SANTANDER    → Diversificación sector financiero
+├── 15% TELEFÓNICA   → Defensivo + Dividendos
+└── 10% BBVA         → Mínima exposición (por correlación)
+
+Métricas esperadas:
+- Retorno anual esperado: 33.6%
+- Volatilidad esperada: 18.2%
+- Sharpe Ratio: 1.85
+- Correlación promedio: 0.35 (BUENA)
+
+================================================================================
+¿CÓMO USAR ESTO EN UNA ENTREVISTA?
+================================================================================
+
+PREGUNTA: "¿Cuéntanos sobre un proyecto de análisis que hayas hecho?"
+
+RESPUESTA ESTRUCTURADA:
+
+"Realicé un análisis completo de un portafolio de 5 acciones españolas.
+
+1️⃣ METODOLOGÍA:
+   Descargué 2 años de datos históricos y calculé métricas clave:
+   retorno, volatilidad y Sharpe Ratio.
+
+2️⃣ HALLAZGOS PRINCIPALES:
+   - INDITEX mostró el mejor balance retorno/riesgo (Sharpe: 2.32)
+   - BBVA y SANTANDER tienen alta correlación (0.68)
+   - Correlación promedio de 0.35 indica buena diversificación
+
+3️⃣ CONCLUSIÓN:
+   Recomendaría un portafolio con 30% INDITEX, 25% AMADEUS
+   y 45% distribuido entre otros, para optimizar retorno/riesgo.
+
+4️⃣ HERRAMIENTAS:
+   Excel avanzado, Python (Pandas), análisis estadístico
+
+5️⃣ RESULTADO:
+   Gráficos profesionales que permiten decisiones de inversión
+   informadas basadas en datos cuantitativos."
+
+================================================================================
+PUNTOS CLAVE PARA RECORDAR
+================================================================================
+
+✅ DO's:
+- Mayor Sharpe Ratio = Mejor inversión
+- Correlación baja = Buena diversificación
+- Volatilidad alta = Potencial alto pero riesgoso
+- Combinar acciones de sectores diferentes
+
+❌ DON'Ts:
+- No invertir 100% en una acción
+- No ignorar la volatilidad
+- No combinar acciones muy correlacionadas
+- No olvidar el análisis fundamental
+
+📊 MÉTRICAS A RECORDAR:
+Sharpe Ratio > 1.5 = COMPRA ✅
+Volatilidad < 20% = SEGURO ✅
+Correlación < 0.4 = DIVERSIFICADO ✅
+Retorno > 30% = BUENO ✅
+
+================================================================================
+¡FIN DE LA GUÍA!
+================================================================================
+
+Para preguntas o aclaraciones, contacta: luka.simsive18@gmail.com
